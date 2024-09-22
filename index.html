@@ -1,8 +1,11 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>Lies mich :)</p>
-  <a href="/küchenbüro.html">Küchenbüro</a>
-</body>
-</html>
+---
+layout: default
+---
+
+<h1>{{site.title}}</h1>
+<ul>
+  {% assign sorted_stories = site.stories | sort: 'order' %} {% for story in
+  sorted_stories %}
+  <li><a href="{{ story.url }}">{{ story.title }}</a></li>
+  {% endfor %}
+</ul>
