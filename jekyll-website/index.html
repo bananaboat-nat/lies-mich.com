@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/css/style.css" />
+<div class="home">
+  <ul>
+    {% for story in site.stories %}
+    <li><a href="{{ story.url }}">{{ story.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
