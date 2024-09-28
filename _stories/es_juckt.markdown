@@ -1,7 +1,8 @@
 ---
 layout: story
 title: "Es juckt mich unter der Haut"
-order : 7
+order: 7
+type: poetry
 ---
 
 Da wo meine Fingernägel nicht hin reichen
