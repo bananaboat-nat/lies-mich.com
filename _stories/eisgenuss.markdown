@@ -1,7 +1,8 @@
 ---
 layout: story
 title: "Eisgenuss"
-order : 9
+order: 9
+type: poetry
 ---
 
 Auf einer samten gepolsterten Bank
