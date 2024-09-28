@@ -1,7 +1,8 @@
 ---
 layout: story
 title: "Sternenreise"
-order : 8
+order: 8
+type: poetry
 ---
 
 Wenn ich unter dem ächzenden Dach liege,
