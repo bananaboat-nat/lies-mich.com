@@ -1,7 +1,8 @@
 ---
 layout: story
 title: "Der alte Matrose"
-order : 2
+order: 2
+type: story
 ---
 
 Es war früh am Morgen. Die Sonne war noch nicht aufgegangen. Und wenn sie es getan hätte, man hätte es wohl nicht gemerkt, durch die dicke Wolkendecke hindurch. Die roten Schindel der Dächer waren noch nicht rot. Lange Schatten beherrschten die Gassen. Ich verließ das Haus, schloss die schwere Eichentür, und schritt die gepflasterte Straße entlang Richtung Bahnhof. Ein leichter Nieselregen erfüllte die Luft. Ich spürte die feuchte Kälte auf meinen Wangen. Der Regen hatte Lachen gebildet. Ein mystischer Glanz lag auf dem Pflasterstein des Gehweges. Es waren kaum Menschen unterwegs. Die wenigen, die ich sah, huschten verhüllt durch die Straßen. An den Hauswänden entlang huschten sie, bis sie von einem der dunklen Türeingänge verschluckt wurden. Alle schienen sie ein klares Ziel zu haben. Niemand spazierte hier um des Spazieren Willens. Ich kam zu dem kleinen Platz vor der Schule, ging vorbei an Bäumen, auf denen sich die Tauben vorm Regen versteckten. An einer Bank, auf der eine Bierkanne stand. Und neben den Büschen, die den Platz begrenzten, da lag eine große leere Bananenkiste am Boden. Marlene stand auf der Kiste. Die aufgedruckten gelben Bananen hoben sich vom Grau der Umgebung ab. Es war die erste Farbe, die ich an diesem Tag gesehen hatte. Und in der Kiste, da stand ein alter Matrose. 
