@@ -1,7 +1,8 @@
 ---
 layout: story
 title: "Ohne Antrieb baden"
-order : 6
+order: 6
+type: poetry
 ---
 
 Er ist der Bademeister
