@@ -1,5 +1,5 @@
 :root {
-  --background-color: #baffc8; /* Define the background color variable */
+  --background-color: #defdda; /* Define the background color variable */
 }
 
 * {
@@ -8,11 +8,12 @@
 
 body {
   background: var(--background-color); /* Use the variable */
-  font-family: "Courier New", Courier, monospace;
+  font-family: Courier, monospace;
+  font-size: 18px;
   margin: 0;
   width: 100vw;
   height: 100vh;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 a {
