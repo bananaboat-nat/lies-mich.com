@@ -1,7 +1,8 @@
 ---
 layout: story
 title: "Die Taucherin und der Clown"
-order : 5
+order: 5
+type: poetry
 ---
 
 Während sie in den Weiten ihrer Traurigkeit
