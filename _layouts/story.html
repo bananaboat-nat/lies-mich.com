@@ -6,4 +6,4 @@ layout: default
   <a href="/" class="back-button">zu den Kurzgeschichten und Gedichten</a>
 </div>
 <h1 style="margin-top: 60px;">{{ page.title }}</h1>
-<div class="story-content">{{ content }}</div>
+<div class="story-content" {% if page.type == "poetry" %}style="line-height:2;"{% endif %}>{{ content }}</div>
