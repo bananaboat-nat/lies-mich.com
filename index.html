@@ -2,7 +2,13 @@
 layout: default
 ---
 
-<h1>{{site.title}}</h1>
+<img
+  style="display: block; height: 60px; width: 60px"
+  src="/logo-192x192.png"
+  alt="lies mich logo"
+/>
+<h1>Kurzgeschichten und Gedichte</h1>
+<p>Lies mich :)</p>
 <ul>
   {% assign sorted_stories = site.stories | sort: 'order' %} {% for story in
   sorted_stories %}

@@ -8,12 +8,22 @@
       site.title }} {% endif %}
     </title>
     <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}" />
+
+    <link rel="manifest" href="/manifest.json" />
+
+    <link rel="icon" type="image/png" href="/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Lies mich :)" />
   </head>
   <body>
-    <div class="content">{{ content }}</div>
-
-    <footer class="footer">
-      <a href="mailto:n.1995@gmx.at">Kontakt</a>
-    </footer>
+    <div class="wrapper">
+      <div class="content">{{ content }}</div>
+      <footer class="footer">
+        <a href="mailto:n.1995@gmx.at">Kontakt</a>
+        <div>&copy; 2024 Natalie Bock. Alle Rechte vorbehalten.</div>
+      </footer>
+    </div>
   </body>
 </html>
