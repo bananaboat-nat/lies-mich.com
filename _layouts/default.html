@@ -21,9 +21,14 @@
     <div class="wrapper">
       <div class="content">{{ content }}</div>
       <footer class="footer">
-        <a href="mailto:n.1995@gmx.at">Kontakt</a>
+        <a id="kontakt" href="mailto:natalie">Kontakt</a>
         <div>&copy; 2024 Natalie Bock. Alle Rechte vorbehalten.</div>
       </footer>
     </div>
   </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("kontakt").href = "mailto:n.1995@gmx.at";
+    });
+  </script>
 </html>
