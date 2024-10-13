@@ -9,7 +9,7 @@ Ich stehe auf und habe keinen Hunger, doch Thomas macht mir Frühstück. Er stel
 
 Doch da steht jetzt die Schüssel mit ihrem warm dampfenden Inhalt. Der Löffel liegt daneben. Bald wird es kalt sein, mein Frühstück. Mikrowelle haben wir keine. Also muss ich es wohl essen. Ich nehme den Löffel und stochere in der Schüssel, koste zaghaft ein kleines bisschen. Es ist gut. Während ich schreibe, schiebe ich mir noch einen Löffel in den Mund. 
 
-Die Email der Kundin ist drei Paragraphen lang und hat keinen Inhalt. Das ist schon fast bewundernswert. Was antwortet man auf so etwas? Noch ein Löffel. Ich schaffe es, drei nichtssagenden Sätze zu formulieren. Liebe Grüße. 
+Die Email der Kundin ist drei Paragraphen lang und hat keinen Inhalt. Das ist schon fast bewundernswert. Was antwortet man auf so etwas? Noch ein Löffel. Ich schaffe es, drei nichtssagende Sätze zu formulieren. Liebe Grüße. 
 
 Noch ein Löffel. Die andere fragt nach, was denn jetzt besser wäre, blau oder schwarz. Ich schaue mir den Email Verlauf an. Gestern habe ich ihr geschrieben, dass ich blau empfehlen würde. Anscheinend war das nicht klar genug. Ich formuliere es noch einmal. 
 
