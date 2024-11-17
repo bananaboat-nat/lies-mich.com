@@ -1,8 +1,8 @@
 ---
-layout: poetry
+layout: story
 title: "Mein Wahnsinn"
 order: 23
-type: story
+type: poetry
 ---
 
 Ich habe Angst, dass du mir meinen Wahnsinn nimmst
