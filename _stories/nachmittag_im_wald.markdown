@@ -1,8 +1,8 @@
 ---
-layout: poetry
+layout: story
 title: "Ein Nachmittag im Wald"
 order: 24
-type: story
+type: poetry
 ---
 
 Meine Füße stecken in Honig
