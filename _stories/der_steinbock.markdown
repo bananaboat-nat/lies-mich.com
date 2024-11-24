@@ -17,6 +17,6 @@ Denn ich selbst, ich bin gezähmt
 Der Steinbock, er lachte
 Und kletterte gemächlich die Klippe hinauf
 Ich aber blieb zurück in der Schlucht
-Und schaute hinauf
+Schaute hinauf
 Da wo das Wilde war
 Und dachte an meine Zügel
