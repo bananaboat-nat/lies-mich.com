@@ -40,7 +40,7 @@ type: story
 
 “Warum schreibst du dann nicht?”
 
-“Das ist die große Frage. Ich habe das Gefühl, noch nicht bereit zu sein. Ich muss die Welt erfahren, muss alles erleben, dass ich erleben kann. Ich muss alles sehen, riechen, fühlen. Ich muss alle Worte kennen. Erst dann kann ich schreiben. Erst dann kann ich Mehrwert schaffen mit meinen Einsichten, meinem Wissen.”
+“Das ist die große Frage. Ich habe das Gefühl, noch nicht bereit zu sein. Ich muss die Welt erfahren, muss alles erleben, was ich erleben kann. Ich muss alles sehen, riechen, fühlen. Ich muss alle Worte kennen. Erst dann kann ich schreiben. Erst dann kann ich Mehrwert schaffen mit meinen Einsichten, meinem Wissen.”
 
 “Dann wirst du doch nie schreiben. Was du sagst ist unmöglich. Du kannst nie alles erfahren.”
 
