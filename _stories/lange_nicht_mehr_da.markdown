@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Du warst schon lange nicht mehr da"
-order: 25
+order: 9
 type: poetry
 ---
 

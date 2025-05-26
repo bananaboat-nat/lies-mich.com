@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Samstag in der Vorstadt"
-order: 21
+order: 17
 type: poetry
 ---
 

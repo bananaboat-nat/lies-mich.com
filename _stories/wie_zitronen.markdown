@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Du presst uns aus wie Zitronen"
-order: 30
+order: 29
 type: poetry
 ---
 

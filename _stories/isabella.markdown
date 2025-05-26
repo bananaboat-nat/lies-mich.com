@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Isabella"
-order: 15
+order: 7
 type: poetry
 ---
 

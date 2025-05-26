@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Um 7 in der Früh"
-order: 12
+order: 26
 type: poetry
 ---
 

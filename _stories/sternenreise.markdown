@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Sternenreise"
-order: 8
+order: 24
 type: poetry
 ---
 

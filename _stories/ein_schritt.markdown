@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Ein Schritt nach dem anderen"
-order: 26
+order: 2
 type: poetry
 ---
 

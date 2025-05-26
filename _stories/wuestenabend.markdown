@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Wüstenabend"
-order: 19
+order: 31
 type: poetry
 ---
 

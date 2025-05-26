@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Der Schlangentod"
-order: 3
+order: 19
 type: story
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Verwirrendes Stadtgedicht #2"
-order: 14
+order: 22
 type: poetry
 ---
 

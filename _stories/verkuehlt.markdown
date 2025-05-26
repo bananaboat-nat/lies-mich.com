@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Ich bin verkühlt"
-order: 29
+order: 28
 type: poetry
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Eisgenuss"
-order: 9
+order: 3
 type: poetry
 ---
 

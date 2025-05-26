@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Spontaner Zerfall"
-order: 22
+order: 20
 type: poetry
 ---
 

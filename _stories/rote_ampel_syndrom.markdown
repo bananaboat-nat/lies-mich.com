@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Das Rote Ampel Syndrom"
-order: 4
+order: 16
 type: story
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Wovor wir stehen bleiben"
-order: 27
+order: 30
 type: poetry
 ---
 

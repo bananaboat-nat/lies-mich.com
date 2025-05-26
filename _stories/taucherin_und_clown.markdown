@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Die Taucherin und der Clown"
-order: 5
+order: 25
 type: poetry
 ---
 

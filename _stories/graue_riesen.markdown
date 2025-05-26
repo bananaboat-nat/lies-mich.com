@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Graue Riesen"
-order: 31
+order: 5
 type: poetry
 ---
 

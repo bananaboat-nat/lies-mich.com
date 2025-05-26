@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Ein Nachmittag im Wald"
-order: 24
+order: 14
 type: poetry
 ---
 

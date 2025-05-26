@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Dienstags werden sie zu Vögeln"
-order: 32
+order: 1
 type: poetry
 ---
 

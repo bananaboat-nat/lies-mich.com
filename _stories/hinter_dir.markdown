@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Hinter dir"
-order: 11
+order: 6
 type: poetry
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Küchenbüro"
-order: 1
+order: 8
 type: story
 ---
 

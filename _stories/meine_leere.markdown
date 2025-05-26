@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Meine Leere"
-order: 20
+order: 10
 type: poetry
 ---
 
