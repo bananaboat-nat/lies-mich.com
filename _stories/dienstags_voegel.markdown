@@ -110,7 +110,7 @@ Es wuselt in der Luft
 
 Sie fliegen eckige Bögen
 Bunte Federn segeln zu Boden
- Diese Vögel sind es nicht gewohnt zu fliegen
+Diese Vögel sind es nicht gewohnt zu fliegen
 Nicht gewohnt Vögel zu sein
 
 Ich erhebe mich
