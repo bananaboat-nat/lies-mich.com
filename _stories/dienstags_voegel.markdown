@@ -134,4 +134,4 @@ Dienstags werden sie zu Vögeln
 
 
 Dieses Gedicht wurde veröffentlicht in "Der lachende Uhu: Gedichte im Zeichen des Uhus", 23. Mai 2025:
-[Verfügbar auf Amazon]([https://www.geeksforgeeks.org/](https://www.amazon.de/dp/B0F9T1FP4F)){:target="_blank"} 
+[Verfügbar auf Amazon](https://www.amazon.de/dp/B0F9T1FP4F){:target="_blank"} 
