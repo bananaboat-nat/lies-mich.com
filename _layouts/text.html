@@ -1,47 +1,28 @@
 ---
-layout: default
+ layout: default
 ---
 
-<header>
-  <a
-    href="/"
-    style="display: flex; align-items: center; flex-direction: column"
-  >
-    <img
-      style="display: block; height: 60px; width: 60px"
-      src="/assets/logo-192x192.png"
-      alt="lies mich logo"
-    />
-    <span style="text-decoration: underline"
-      >< zu den Kurzgeschichten und Gedichten</span
-    >
-  </a>
-</header>
+ <a href="/" style="display: flex; align-items: center; flex-direction: column;">
+   <img
+     style="display:block; height: 60px; width: 60px;"
+     src="/assets/logo-192x192.png"
+     alt="lies mich logo"
+ />
+ <span style="text-decoration: underline;">< zu den Kurzgeschichten und Gedichten</span>
+ </a>
+ <h1>{{ page.title }}</h1>
+ <div class="story-content" {% if page.type == "poetry" %}style="line-height:2;"{% endif %}>
+   {{ content }}
+ </div>
 
-<main role="main">
-  <h1>{{ page.title }}</h1>
-  {% if page.type == "poetry" %}
-  <section class="story-content" aria-label="poetry" style="line-height: 2">
-    {{ content }}
-  </section>
-  {% else %}
-  <section class="story-content" aria-label="{{ page.type }}">
-    {{ content }}
-  </section>
-  {% endif %} {% if page.small_text %}
-  <section class="small-text" aria-label="Zusätzliche Informationen">
-    <div style="flex: none; width: 10%; max-width: 36px; max-height: 36px">
-      {% if page.malika %}<img
-        src="/assets/award-icon.svg"
-        alt="prämiert"
-        height="100%"
-      />{% endif %} {% if page.published %}<img
-        src="/assets/published-icon.svg"
-        alt="veröffentlicht"
-        height="100%"
-      />{% endif %}
-    </div>
-    <div>{{ page.small_text }}</div>
-  </section>
-  {% endif %}
-</main>
+ {% if page.small_text %}
+   <div class="small-text">
+     <div style="flex:none; width: 10%; max-width: 36px; max-height: 36px;">
+       {% if page.malika %}<img src="/assets/award-icon.svg" alt="prämiert" height="100%">{% endif %}
+       {% if page.published %}<img src="/assets/published-icon.svg" alt="veröffentlicht" height="100%">{% endif %}  
+     </div>
+     <div>
+       {{ page.small_text }}
+     </div>
+   </div>
+ {% endif %}
