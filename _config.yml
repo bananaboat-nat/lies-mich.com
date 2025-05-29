@@ -20,8 +20,7 @@
 
 title: Lies mich :)
 email: "n.1995@gmx.at"
-description: >- # this means to ignore newlines until "baseurl:"
-  Lies mich :)
+description: Kurzgeschichten und Gedichte
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://lies-mich.com" # the base hostname & protocol for your site, e.g. http://example.com
 
