@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Schicksal"
 order: 18
 type: poetry

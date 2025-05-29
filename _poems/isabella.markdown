@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Isabella"
 order: 7
 type: poetry

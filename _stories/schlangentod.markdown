@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Der Schlangentod"
 order: 19
 type: story

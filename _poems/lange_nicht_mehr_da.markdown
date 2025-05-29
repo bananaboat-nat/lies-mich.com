@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Du warst schon lange nicht mehr da"
 order: 9
 type: poetry

@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Unangenehm"
 order: 27
 type: poetry

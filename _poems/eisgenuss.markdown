@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Eisgenuss"
 order: 3
 type: poetry

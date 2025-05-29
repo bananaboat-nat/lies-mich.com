@@ -1,8 +1,11 @@
 ---
-layout: story
+layout: text
 title: "Dienstags werden sie zu Vögeln"
 order: 1
 type: poetry
+published: true
+small_text: |
+    Dieses Gedicht wurde veröffentlicht in "Der lachende Uhu: Gedichte im Zeichen des Uhus", 23. Mai 2025: <a href="https://www.amazon.de/dp/B0F9T1FP4F" target="_blank">Verfügbar auf Amazon.de</a>
 ---
 
 Wie jeden Dienstag Nachmittag
@@ -130,8 +133,3 @@ Dann setze ich mich wieder an den glatten Tisch
 Wische eine hellblaue Feder weg
 Und notiere
 Dienstags werden sie zu Vögeln
-
-
-
-Dieses Gedicht wurde veröffentlicht in "Der lachende Uhu: Gedichte im Zeichen des Uhus", 23. Mai 2025:
-[Verfügbar auf Amazon](https://www.amazon.de/dp/B0F9T1FP4F){:target="_blank"} 

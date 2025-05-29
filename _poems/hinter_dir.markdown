@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Hinter dir"
 order: 6
 type: poetry

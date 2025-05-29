@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Sternenreise"
 order: 24
 type: poetry

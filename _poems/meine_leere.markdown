@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Meine Leere"
 order: 10
 type: poetry

@@ -1,8 +1,11 @@
 ---
-layout: story
+layout: text
 title: "Morgenblau"
 order: 12
 type: story
+malika: true
+small_text: |
+   Dieser Text wurde vom Zauberberg Sommer Semmering 2025 mit dem Tagespreis ausgezeichnet.
 ---
 
 Ich stehe im Blau des Morgens. Die Farben werden kommen, doch jetzt ist alles blau. Ein Schleier über der Welt. Und ich atme. Es liegt ein Hauch von Rauch in der kalten Luft. Ich schaue über die Dächer meiner Stadt. Ist es meine Stadt? Das habe ich noch nicht entschieden. Die Uhr des Kirchturms der großen Kirche einige Blöcke weiter ist noch beleuchtet. Groß und weiß und rund. Wie der Mond. In den spiegelnden Glasfassaden der modernen Gebäude spiegelt sich schon ein Hauch Licht der Sonne, die sich zum Aufgehen bereitmacht.
@@ -16,7 +19,3 @@ Wie vom Farbenspiel aufgeweckt, werden die Geräusche der Stadt intensiver. Dort
 Die roten Ziegeldächer leuchten jetzt orange. Die Sonne muss den Horizont überschritten haben. Wir haben uns ihr wohl genügend zugewendet, um unsere Welt in Licht getaucht zu sehen. Ich atme den letzten Hauch Blau ein, der noch bleibt und halte die Luft an, möchte es nicht gehen lassen. Die Amsel bereitet sich auf ihren nächsten Flug vor. Sie breitet die Flügel aus und gleitet hinüber aufs Nachbardach. Meine Kehle beginnt zu brennen. Ich gebe nach und atme die ersten Sonnenstrahlen aus. Sie fallen auf die Gebäude um mich, sie tauchen den geziegelten Seifenfabriksturm in ein intensives Orange. Die Fenster eines der modernen Gebäude reflektieren die Sonne. Es blendet beinahe.
  
 Wir drehen uns weiter der Sonne zu. Der Himmel leuchtet in einem hellen Blau. Ich stehe darunter. Hinter mir, um mich, wird es heller und heller. Drei Tauben fliegen vorbei. Ich höre, wie sich das Tor im Hof öffnet. Die Geräuschkulisse der Stadt wird breiter. Die Farben sind zurück. Der Tag hat begonnen.
-
-
-
-Dieser Text wurde vom Zauberberg Sommer Semmering 2025 mit dem Tagespreis ausgezeichnet.

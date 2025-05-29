@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Wovor wir stehen bleiben"
 order: 30
 type: poetry

@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Das Rote Ampel Syndrom"
 order: 16
 type: story

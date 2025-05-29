@@ -4,14 +4,30 @@ layout: default
 
 <img
   style="display: block; height: 60px; width: 60px"
-  src="/logo-192x192.png"
+  src="/assets/logo-192x192.png"
   alt="lies mich logo"
 />
 <h1>Kurzgeschichten und Gedichte</h1>
 <p>Lies mich :)</p>
+<div>
+  <h2>Kurzgeschichten</h2>
 <ul>
-  {% assign sorted_stories = site.stories | sort: 'order' %} {% for story in
-  sorted_stories %}
-  <li><a href="{{ story.url }}">{{ story.title }}</a></li>
+  {% assign sorted_stories = site.stories | sort: 'title' %} {% for story in sorted_stories %}
+  <li>
+    <a href="{{ story.url }}">{{ story.title }}</a>
+    {% if story.malika %}<img class="index-icon" src="/assets/award-icon.svg" alt="prämiert" >{% endif %}
+    {% if story.published %}<img class="index-icon" src="/assets/published-icon.svg" alt="veröffentlicht" >{% endif %}
+  </li>
   {% endfor %}
 </ul>
+<h2>Gedichte</h2>
+<ul>
+  {% assign sorted_poems = site.poems | sort: 'title' %} {% for poem in
+  sorted_poems %}
+  <li><a href="{{ poem.url }}">{{ poem.title }}</a>
+  {% if poem.malika %}<img class="index-icon" src="/assets/award-icon.svg" alt="prämiert" >{% endif %}
+  {% if poem.published %}<img class="index-icon" src="/assets/published-icon.svg" alt="veröffentlicht" >{% endif %}
+</li>
+  {% endfor %}
+</ul>
+</div>

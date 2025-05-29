@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Meine Worte"
 order: 11
 type: poetry

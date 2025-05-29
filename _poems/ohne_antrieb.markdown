@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Ohne Antrieb baden"
 order: 15
 type: poetry

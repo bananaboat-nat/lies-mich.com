@@ -35,23 +35,44 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 200%;
+}
+
 ul {
   list-style-type: none;
   overflow-y: auto; /* Enable vertical scroll */
   padding-right: 10px; /* Optional: Adds some space for scrollbar */
   margin-left: 0px;
   padding-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 40px;
 }
 
 li {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 200%;
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+}
+
+.index-icon {
+  height: 36px;
 }
 
 @media only screen and (max-width: 600px) {
   li {
     font-size: 100%;
+  }
+  h2 {
+    font-size: 100%;
+  }
+  .index-icon {
+    height: 18px;
   }
 }
 
@@ -83,4 +104,15 @@ li {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Make sure the wrapper takes up at least 100% of the viewport height */
+}
+
+.small-text {
+  font-size: 80%;
+  margin-top: 40px;
+  padding-right:10%;
+  padding-left: 10%;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }

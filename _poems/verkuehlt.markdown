@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Ich bin verkühlt"
 order: 28
 type: poetry

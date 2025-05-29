@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Graue Riesen"
 order: 5
 type: poetry

@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Ein Nachmittag im Wald"
 order: 14
 type: poetry

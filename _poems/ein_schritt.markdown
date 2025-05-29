@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Ein Schritt nach dem anderen"
 order: 2
 type: poetry

@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Verwirrendes Stadtgedicht #1"
 order: 21
 type: poetry

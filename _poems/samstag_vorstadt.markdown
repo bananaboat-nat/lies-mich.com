@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Samstag in der Vorstadt"
 order: 17
 type: poetry

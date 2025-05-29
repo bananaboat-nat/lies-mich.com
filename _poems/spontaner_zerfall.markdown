@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Spontaner Zerfall"
 order: 20
 type: poetry

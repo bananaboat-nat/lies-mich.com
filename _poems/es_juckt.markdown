@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Es juckt mich unter der Haut"
 order: 4
 type: poetry

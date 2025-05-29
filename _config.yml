@@ -31,6 +31,9 @@ collections:
   stories:
     output: true
     permalink: /:name  # This sets the URL structure
+  poems:
+    output: true
+    permalink: /:name  # This sets the URL structure    
 
 kramdown:
   input: GFM

@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Wüstenabend"
 order: 31
 type: poetry

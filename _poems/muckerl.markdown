@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Ich Muckerl"
 order: 13
 type: poetry

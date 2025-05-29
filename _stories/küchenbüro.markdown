@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Küchenbüro"
 order: 8
 type: story

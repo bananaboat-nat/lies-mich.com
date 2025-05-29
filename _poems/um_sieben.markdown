@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: text
 title: "Um 7 in der Früh"
 order: 26
 type: poetry
