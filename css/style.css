@@ -86,7 +86,6 @@ li {
 }
 
 .story-content {
-  flex-grow: 1;
   overflow-y: auto;
   text-align: justify;
   max-width: 800px;
