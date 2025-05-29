@@ -15,8 +15,8 @@ layout: default
   {% assign sorted_stories = site.stories | sort: 'title' %} {% for story in sorted_stories %}
   <li>
     <a href="{{ story.url }}">{{ story.title }}</a>
-    {% if story.malika %}<img class="index-icon" src="/assets/award-icon.svg" alt="prämiert" >{% endif %}
-    {% if story.published %}<img class="index-icon" src="/assets/published-icon.svg" alt="veröffentlicht" >{% endif %}
+    {% if story.malika %}<img class="index-icon" src="/assets/award-icon.svg" alt="prämiert" title="prämiert">{% endif %}
+    {% if story.published %}<img class="index-icon" src="/assets/published-icon.svg" alt="veröffentlicht" title="veröffentlicht">{% endif %}
   </li>
   {% endfor %}
 </ul>
@@ -25,8 +25,8 @@ layout: default
   {% assign sorted_poems = site.poems | sort: 'title' %} {% for poem in
   sorted_poems %}
   <li><a href="{{ poem.url }}">{{ poem.title }}</a>
-  {% if poem.malika %}<img class="index-icon" src="/assets/award-icon.svg" alt="prämiert" >{% endif %}
-  {% if poem.published %}<img class="index-icon" src="/assets/published-icon.svg" alt="veröffentlicht" >{% endif %}
+  {% if poem.malika %}<img class="index-icon" src="/assets/award-icon.svg" alt="prämiert" title="prämiert">{% endif %}
+  {% if poem.published %}<img class="index-icon" src="/assets/published-icon.svg" alt="veröffentlicht" title="veröffentlicht">{% endif %}
 </li>
   {% endfor %}
 </ul>
