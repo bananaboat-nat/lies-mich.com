@@ -18,9 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Lies mich :)
+
+title: Originelle Kurzgeschichten und Gedichte | Lies mich :)
+short_title: Lies mich :)
 email: "n.1995@gmx.at"
-description: Kurzgeschichten und Gedichte
+description: Originelle, zeitgenössische Kurzgeschichten und Gedichte einer jungen Autorin aus Wien, geprägt von Auslandserfahrung und Rückkehr.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://lies-mich.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -29,14 +31,17 @@ url: "https://lies-mich.com" # the base hostname & protocol for your site, e.g. 
 collections:
   stories:
     output: true
-    permalink: /:name  # This sets the URL structure
+    permalink: /kurzgeschichten/:name  # This sets the URL structure
   poems:
     output: true
-    permalink: /:name  # This sets the URL structure    
+    permalink: /gedichte/:name  # This sets the URL structure    
 
 kramdown:
   input: GFM
   hard_wrap: true
+
+plugins:
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
