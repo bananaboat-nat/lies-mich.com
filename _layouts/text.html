@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<header style="text-align: center; margin-bottom: 2rem">
+<header>
   <a
     href="/"
     style="display: flex; align-items: center; flex-direction: column"
@@ -20,14 +20,16 @@ layout: default
 
 <main role="main">
   <h1>{{ page.title }}</h1>
-  <section class="story-content" aria-label="{{ page.type }}" {% if page.type == "poetry" %}style="line-height:2;"{% endif %} >{{ content }}</section>
-
-  {% if page.small_text %}
-  <section
-    class="small-text"
-    aria-label="Zusätzliche Informationen"
-    style="margin-top: 2rem; display: flex; align-items: center; gap: 1rem"
-  >
+  {% if page.type == "poetry" %}
+  <section class="story-content" aria-label="poetry" style="line-height: 2">
+    {{ content }}
+  </section>
+  {% else %}
+  <section class="story-content" aria-label="{{ page.type }}">
+    {{ content }}
+  </section>
+  {% endif %} {% if page.small_text %}
+  <section class="small-text" aria-label="Zusätzliche Informationen">
     <div style="flex: none; width: 10%; max-width: 36px; max-height: 36px">
       {% if page.malika %}<img
         src="/assets/award-icon.svg"
