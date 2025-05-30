@@ -3,6 +3,7 @@ layout: text
 title: "Isabella"
 order: 7
 type: poetry
+date: 2024-01-01
 ---
 
 Mit ihren Ohren und Augen erkennt sie

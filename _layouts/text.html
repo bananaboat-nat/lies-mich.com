@@ -8,21 +8,98 @@ layout: default
      src="/assets/logo-192x192.png"
      alt="lies mich logo"
  />
- <span style="text-decoration: underline;">< zu den Kurzgeschichten und Gedichten</span>
+ <span class="secondary-text" style="text-decoration: underline;">< zu den Kurzgeschichten und Gedichten</span>
  </a>
  <h1>{{ page.title }}</h1>
  <div class="story-content" {% if page.type == "poetry" %}style="line-height:2;"{% endif %}>
    {{ content }}
  </div>
 
- {% if page.small_text %}
-   <div class="small-text">
+ {% if page.malika or page.published %}
+   <div class="info-text secondary-text" id="info-text">
      <div style="flex:none; width: 10%; max-width: 36px; max-height: 36px;">
        {% if page.malika %}<img src="/assets/award-icon.svg" alt="prämiert" height="100%">{% endif %}
        {% if page.published %}<img src="/assets/published-icon.svg" alt="veröffentlicht" height="100%">{% endif %}  
      </div>
      <div>
-       {{ page.small_text }}
+      {% if page.malika %}
+       {{ page.malika.info_text }}
+      {% endif %}
+      {% if page.published %}
+        {{ page.published.info_text }}. <a href="{{ page.published.url }}" target="_blank" rel="noopener noreferrer">{{ page.published.link_label }}</a>
+      {% endif %}
      </div>
    </div>
  {% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.type == 'poetry' %}Poem{% else %}ShortStory{% endif %}",
+  "headline": "{{ page.title | escape }}",
+  "description": "{% if page.description %}{{ page.description | escape }}{% else %}{{ page.title | escape }}{% endif %}",
+  "inLanguage": "de",
+  "author": {
+    "@type": "Person",
+    "name": "Natalie Bock"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "lies-mich.com",
+    "url": "https://lies-mich.com"
+    "logo": {
+      @type: "ImageObject",
+      "url": "{{ site.url }}/assets/logo-512x512.png"
+    }
+  },
+  "license": "https://lies-mich.com/lizenz",
+  "isAccessibleForFree": true,
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "url": "{{ site.url }}{{ page.url }}",
+  {% if page.malika %}
+  "award": {
+    "@type": "Award",
+    "name": "{{ page.malika.name | escape }}",
+    {% if page.malika.date %}
+    "dateAwarded": "{{ page.malika.date | date_to_xmlschema }}",
+    {% endif %}
+    {% if page.malika.url %}
+    "url": "{{ page.malika.url }}",
+    {% endif %}
+    {% if page.malika.description %}
+    "description": "{{ page.malika.description | escape }}",
+    {% endif %}
+    "awardedBy": {
+      "@type": "Organization",
+      "name": "{{ page.malika.awarder | escape }}"
+    }
+  },
+  {% endif %}
+  {% if page.published %}
+  "isPartOf": {
+    "@type": "Book",
+    "name": "{{ page.published.name | escape }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ page.published.publisher | escape }}"
+    },
+    "isbn": "{{ page.published.isbn | escape }}",
+    "datePublished": "{{ page.published.date | date_to_xmlschema }}",
+    "url": "{{ page.published.url | escape }}"
+  },
+  {% endif %}
+  {% if page.date %}
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  {% endif %}
+  "genre": "{% if page.type == 'poetry' %}Poetry{% else %}Short Story{% endif %}",
+  {% if content %}
+  "wordCount": {{ content | number_of_words }},
+  "characterCount": {{ content | size }},
+  {% endif %}
+  "keywords": "Lyrik, Kurzgeschichten, Wien, zeitgenössische Literatur, Natalie Bock",
+  "identifier": "{{ page.slug | default: page.url | slugify }}"
+}
+</script>

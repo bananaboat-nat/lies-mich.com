@@ -3,9 +3,13 @@ layout: text
 title: "Der Steinbock"
 order: 23
 type: poetry
-malika: true
-small_text: |
-   Dieser Text wurde vom Zauberberg Sommer Semmering 2025 mit dem Tagespreis ausgezeichnet.
+date: 2024-11-01
+
+malika:
+  name: Tagespreis
+  awarder: Zauberberg Sommer Semmering 2025
+  date: 2025-05-26
+  info_text: Dieser Text wurde vom Zauberberg Sommer Semmering 2025 mit dem Tagespreis ausgezeichnet.
 ---
 
 Einst ging ich eine Schlucht entlang

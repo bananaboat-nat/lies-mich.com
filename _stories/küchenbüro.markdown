@@ -3,6 +3,7 @@ layout: text
 title: "Küchenbüro"
 order: 8
 type: story
+date: 2023-01-01
 ---
 
 Ich stehe auf und habe keinen Hunger, doch Thomas macht mir Frühstück. Er stellt eine große Schale voll dampfendem Haferbrei mit Nüssen und Bananenstücken vor mir ab. Ich lächle ihn an und bedanke mich bei ihm. Das ist ja auch wirklich nett. Ich habe halt keinen Hunger. 

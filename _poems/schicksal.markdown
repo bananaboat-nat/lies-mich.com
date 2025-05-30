@@ -3,6 +3,7 @@ layout: text
 title: "Schicksal"
 order: 18
 type: poetry
+date: 2024-08-01
 ---
 
 Wären wir uns je begegnet

@@ -3,6 +3,7 @@ layout: text
 title: "Um 7 in der Früh"
 order: 26
 type: poetry
+date: 2022-01-01
 ---
 
 Wenn die Tauben noch in den Bäumen bleiben

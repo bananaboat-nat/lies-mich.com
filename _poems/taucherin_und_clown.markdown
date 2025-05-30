@@ -3,6 +3,7 @@ layout: text
 title: "Die Taucherin und der Clown"
 order: 25
 type: poetry
+date: 2022-01-01
 ---
 
 Während sie in den Weiten ihrer Traurigkeit

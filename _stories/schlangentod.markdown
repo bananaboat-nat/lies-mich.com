@@ -3,6 +3,7 @@ layout: text
 title: "Der Schlangentod"
 order: 19
 type: story
+date: 2023-01-01
 ---
 
 Die Schlange schoss aus dem hohen Gras hervor und schlug ihre Giftzähne in meinen Fuß. Ich schrie vor Schreck auf. Thomas kam angerannt, aber als er an meiner Seite angekommen war, war die Schlange schon wieder zwischen den dichten gelb-grünen Grashalmen verschwunden. Alles was blieb waren zwei winzige rundliche rote Wunden unter meinem Knöchel und ein pochender Schmerz, der von der Stelle ausging. Thomas schaute mich fragend an. Er hatte nichts gesehen. Ich deutete schluchzend auf meinen Fuß. „Mich hat eine Schlange gebissen!“ Seine Augen wurden groß. „Was für eine??“ fragte er mich. „Ich weiß nicht, es ist so plötzlich passiert. Ich glaub sie war gelb. Oder braun. Es tut weh!“ 

@@ -3,6 +3,7 @@ layout: text
 title: "Wüstenabend"
 order: 31
 type: poetry
+date: 2023-01-01
 ---
 
 Warmer Sand in weiß, beige, rot
