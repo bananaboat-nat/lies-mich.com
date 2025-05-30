@@ -6,8 +6,9 @@ type: poetry
 date: 2024-01-01
 
 published:
-    name: Jubiläumsausgabe der Anthologie zum 10. Bubenreuther Literaturwettbewerb 2024
+    name: 10. Bubenreuther Literaturwettbewerb 2024
     publisher: BoD - Books on Demand
+    editor: Christoph-Maria Liegener
     isbn: 9783769307795
     date: 2024-11-05
     info_text: Dieses Gedicht wurde veröffentlicht in der Jubiläumsausgabe der Anthologie zum 10. Bubenreuther Literaturwettbewerb 2024

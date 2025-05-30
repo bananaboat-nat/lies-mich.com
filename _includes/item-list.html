@@ -5,7 +5,7 @@
     <li>
       <a href="{{ item.url }}">{{ item.title }}</a>
       {% if item.malika %}
-        <a href="{{ item.url }}#info-text" class="icon-link" title="Prämiert: {{ item.malika.name }}{% if item.malika.awarder %} - {{ item.malika.awarder }}{% endif %}">
+        <a href="{{ item.url }}#info-text" class="icon-link" title="Prämiert: {{ item.malika.name }}">
           <img class="index-icon" src="/assets/award-icon.svg" alt="prämiert">
         </a>
       {% endif %}

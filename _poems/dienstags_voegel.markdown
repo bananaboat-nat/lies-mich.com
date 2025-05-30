@@ -8,6 +8,7 @@ date: 2025-01-01
 published:
     name: "Der lachende Uhu: Gedichte im Zeichen des Uhus"
     publisher: Independently published
+    editor: Prinz Rupi
     isbn: 9798284137406
     date: 2025-05-25
     info_text: 'Dieses Gedicht wurde veröffentlicht in "Der lachende Uhu: Gedichte im Zeichen des Uhus", 23. Mai 2025'

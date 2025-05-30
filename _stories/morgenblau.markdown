@@ -6,9 +6,7 @@ type: story
 date: 2025-01-01
 
 malika:
-  name: Tagespreis
-  awarder: Zauberberg Sommer Semmering 2025
-  date: 2025-05-26
+  name: Tagespreis vom Zauberberg Sommer Semmering 2025
   info_text: Dieser Text wurde vom Zauberberg Sommer Semmering 2025 mit dem Tagespreis ausgezeichnet.
 ---
 

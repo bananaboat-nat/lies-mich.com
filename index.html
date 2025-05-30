@@ -10,6 +10,29 @@ layout: default
 <h1>Kurzgeschichten und Gedichte</h1>
 <p>Lies mich :)</p>
 <div>
-  {% include item-list.html title="Kurzgeschichten" items=site.stories %}
-  {% include item-list.html title="Gedichte" items=site.poems %}
+  {% include item-list.html title="Kurzgeschichten" items=site.stories %} {%
+  include item-list.html title="Gedichte" items=site.poems %}
 </div>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "{{ site.title }}",
+    "description": "{{ site.description }}",
+    {% assign all_items = site.stories | concat: site.poems %}
+    "numberOfItems": {{ all_items | size }},
+    "itemListElement": [
+      {% assign all_items_sorted = all_items | sort: 'title' %}
+      {% for item in all_items_sorted %}
+      {
+        "@type": "{% if item.collection == 'poems' %}CreativeWork{% else %}ShortStory{% endif %}",
+        "position": {{ forloop.index }},
+        "url": "{{ site.url }}{{ item.url }}",
+        "name": "{{ item.title | escape }}",
+        "description": "{% if item.description %}{{ item.description | escape }}{% else %}{{ item.title | escape }}{% endif %}"
+      }{% if forloop.last == false %},{% endif %}
+      {% endfor %}
+    ]
+  }
+</script>
