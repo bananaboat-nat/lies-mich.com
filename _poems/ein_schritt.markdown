@@ -3,6 +3,7 @@ layout: text
 title: "Ein Schritt nach dem anderen"
 order: 2
 type: poetry
+date: 2024-11-01
 ---
 
 Ich packte meinen Rucksack 

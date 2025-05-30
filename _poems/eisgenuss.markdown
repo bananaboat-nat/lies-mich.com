@@ -3,6 +3,7 @@ layout: text
 title: "Eisgenuss"
 order: 3
 type: poetry
+date: 2024-07-01
 ---
 
 Auf einer samten gepolsterten Bank

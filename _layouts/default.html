@@ -4,43 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      {% if page.title %} {{ page.title }} | {{ site.short_title }} {% else %} {{
-      site.title }} {% endif %}
+      {% if page.title %} {{ page.title }} | {{ site.short_title }} {% else %}
+      {{ site.title }} {% endif %}
     </title>
-    <meta name="description" content="{{ page.description | default: site.description }}"/>
-    <link rel="canonical" href="{{ page.canonical | default: page.url | absolute_url }}"/>
+    <meta
+      name="description"
+      content="{{ page.description | default: site.description }}"
+    />
+    <link
+      rel="canonical"
+      href="{{ page.canonical | default: page.url | absolute_url }}"
+    />
     <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}" />
 
     <link rel="manifest" href="/manifest.json" />
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow" />
 
-    <link rel="icon" type="image/png" href="/assets/favicon-48x48.png" sizes="48x48" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicon-48x48.png"
+      sizes="48x48"
+    />
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/apple-touch-icon.png"
+    />
     <meta name="apple-mobile-web-app-title" content="Lies mich :)" />
   </head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E7NYECTTRV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-E7NYECTTRV"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  gtag('config', 'G-E7NYECTTRV');
-</script>
+    gtag("config", "G-E7NYECTTRV");
+  </script>
   <body>
     <div class="wrapper">
       <div class="content">{{ content }}</div>
-      <footer class="footer">
+      <footer class="footer secondary-text">
         <a id="kontakt" href="mailto:natalie">Kontakt</a>
-        <div>&copy; 2024 Natalie Bock. Alle Rechte vorbehalten.</div>
+        <div>
+          <a href="/lizenz" target="_blank" style="text-decoration: none"
+            >&copy; 2025 Natalie Bock. Alle Rechte vorbehalten.</a
+          >
+        </div>
       </footer>
     </div>
   </body>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
+      // complete mailto
       document.getElementById("kontakt").href = "mailto:n.1995@gmx.at";
+
+      // scroll  to target element
+      var hash = window.location.hash;
+      if (hash) {
+        // Remove the '#' from the hash string
+        var id = hash.substring(1);
+        var element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }
     });
   </script>
 </html>

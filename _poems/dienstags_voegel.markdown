@@ -3,9 +3,18 @@ layout: text
 title: "Dienstags werden sie zu Vögeln"
 order: 1
 type: poetry
-published: true
-small_text: |
-    Dieses Gedicht wurde veröffentlicht in "Der lachende Uhu: Gedichte im Zeichen des Uhus", 23. Mai 2025: <a href="https://www.amazon.de/dp/B0F9T1FP4F" target="_blank">Verfügbar auf Amazon.de</a>
+date: 2025-01-01
+
+published:
+    name: "Der lachende Uhu: Gedichte im Zeichen des Uhus"
+    publisher: Independently published
+    editor: Prinz Rupi
+    isbn: 9798284137406
+    date: 2025-05-25
+    info_text: 'Dieses Gedicht wurde veröffentlicht in "Der lachende Uhu: Gedichte im Zeichen des Uhus", 23. Mai 2025'
+    url: https://www.amazon.de/dp/B0F9T1FP4F
+    link_label: Verfügbar auf Amazon.de
+
 ---
 
 Wie jeden Dienstag Nachmittag

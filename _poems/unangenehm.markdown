@@ -3,6 +3,7 @@ layout: text
 title: "Unangenehm"
 order: 27
 type: poetry
+date: 2024-01-01
 ---
 
 Tage an denen es im Schatten zu kalt ist, in der Sonne beginnst du zu schwitzen.

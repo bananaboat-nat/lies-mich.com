@@ -3,6 +3,7 @@ layout: text
 title: "Ich Muckerl"
 order: 13
 type: poetry
+date: 2024-01-01
 ---
 
 Ich fliege nach oben, da ist Licht.

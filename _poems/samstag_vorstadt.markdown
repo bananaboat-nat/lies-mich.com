@@ -3,6 +3,7 @@ layout: text
 title: "Samstag in der Vorstadt"
 order: 17
 type: poetry
+date: 2024-01-01
 ---
 
 Wenn dicke Zentraleuropäer auf Strohballen schwitzend Bier trinken

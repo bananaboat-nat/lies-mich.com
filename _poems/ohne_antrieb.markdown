@@ -3,6 +3,7 @@ layout: text
 title: "Ohne Antrieb baden"
 order: 15
 type: poetry
+date: 2024-01-01
 ---
 
 Er ist der Bademeister

@@ -3,6 +3,7 @@ layout: text
 title: "Du presst uns aus wie Zitronen"
 order: 29
 type: poetry
+date: 2024-01-01
 ---
 
 Du presst uns aus wie Zitronen

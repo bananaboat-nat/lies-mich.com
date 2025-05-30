@@ -3,6 +3,7 @@ layout: text
 title: "Das Rote Ampel Syndrom"
 order: 16
 type: story
+date: 2024-01-01
 ---
 
 Verkehrschaos in Wien fordert 3 Tote: Der größte Stau in der Geschichte Mitteleuropas legte gestern Abend ganz Wien lahm. Drei Menschen kamen aufgrund der verstopften Straßen zu Tode. Die Ursache des Staus: ein Fehler in der Ampelschaltung an der Kreuzung Margareten-Sechshauser-Gaudenzdorfer Gürtel.

@@ -3,6 +3,7 @@ layout: text
 title: "Sternenreise"
 order: 24
 type: poetry
+date: 2024-01-01
 ---
 
 Wenn ich unter dem ächzenden Dach liege,

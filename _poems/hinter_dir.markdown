@@ -3,6 +3,7 @@ layout: text
 title: "Hinter dir"
 order: 6
 type: poetry
+date: 2024-01-01
 ---
 
 Der Meteor ist hinter dir verglüht

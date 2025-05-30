@@ -3,6 +3,7 @@ layout: text
 title: "Ein Nachmittag im Wald"
 order: 14
 type: poetry
+date: 2024-07-01
 ---
 
 Meine Füße stecken in Honig

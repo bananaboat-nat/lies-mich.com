@@ -3,6 +3,7 @@ layout: text
 title: "Ich bin verkühlt"
 order: 28
 type: poetry
+date: 2024-01-01
 ---
 
 Selbst große Dichter werden klein

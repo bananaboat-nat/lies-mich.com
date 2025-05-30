@@ -3,9 +3,11 @@ layout: text
 title: "Morgenblau"
 order: 12
 type: story
-malika: true
-small_text: |
-   Dieser Text wurde vom Zauberberg Sommer Semmering 2025 mit dem Tagespreis ausgezeichnet.
+date: 2025-01-01
+
+malika:
+  name: Tagespreis vom Zauberberg Sommer Semmering 2025
+  info_text: Dieser Text wurde vom Zauberberg Sommer Semmering 2025 mit dem Tagespreis ausgezeichnet.
 ---
 
 Ich stehe im Blau des Morgens. Die Farben werden kommen, doch jetzt ist alles blau. Ein Schleier über der Welt. Und ich atme. Es liegt ein Hauch von Rauch in der kalten Luft. Ich schaue über die Dächer meiner Stadt. Ist es meine Stadt? Das habe ich noch nicht entschieden. Die Uhr des Kirchturms der großen Kirche einige Blöcke weiter ist noch beleuchtet. Groß und weiß und rund. Wie der Mond. In den spiegelnden Glasfassaden der modernen Gebäude spiegelt sich schon ein Hauch Licht der Sonne, die sich zum Aufgehen bereitmacht.
