@@ -96,6 +96,10 @@ layout: default
   {% endif %}
   "keywords": "{{ page.title | escape }}, Lyrik, Kurzgeschichten, Wien, zeitgenössische Literatur, Natalie Bock",
   "identifier": "{{ page.slug | default: page.url | slugify }}",
-  "about": "{% if page.description %}{{ page.description | escape }}{% else %}{{ page.title | escape }}{% endif %}"
+  "about": "{% if page.description %}{{ page.description | escape }}{% else %}{{ page.title | escape }}{% endif %}",
+  "potentialAction": {
+    "@type": "ReadAction",
+    "target": "{{ site.url }}{{ page.url }}"
+}
 }
 </script>

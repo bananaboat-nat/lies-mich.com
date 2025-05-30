@@ -30,7 +30,11 @@ layout: default
         "position": {{ forloop.index }},
         "url": "{{ site.url }}{{ item.url }}",
         "name": "{{ item.title | escape }}",
-        "description": "{% if item.description %}{{ item.description | escape }}{% else %}{{ item.title | escape }}{% endif %}"
+        "description": "{% if item.description %}{{ item.description | escape }}{% else %}{{ item.title | escape }}{% endif %}",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": "{{ site.url }}{{ item.url }}"
+        }
       }{% if forloop.last == false %},{% endif %}
       {% endfor %}
     ]
