@@ -10,24 +10,33 @@ layout: default
 <h1>Kurzgeschichten und Gedichte</h1>
 <p>Lies mich :)</p>
 <div>
-  <h2>Kurzgeschichten</h2>
-<ul>
-  {% assign sorted_stories = site.stories | sort: 'title' %} {% for story in sorted_stories %}
-  <li>
-    <a href="{{ story.url }}">{{ story.title }}</a>
-    {% if story.malika %}<img class="index-icon" src="/assets/award-icon.svg" alt="prämiert" title="prämiert">{% endif %}
-    {% if story.published %}<img class="index-icon" src="/assets/published-icon.svg" alt="veröffentlicht" title="veröffentlicht">{% endif %}
-  </li>
-  {% endfor %}
-</ul>
-<h2>Gedichte</h2>
-<ul>
-  {% assign sorted_poems = site.poems | sort: 'title' %} {% for poem in
-  sorted_poems %}
-  <li><a href="{{ poem.url }}">{{ poem.title }}</a>
-  {% if poem.malika %}<img class="index-icon" src="/assets/award-icon.svg" alt="prämiert" title="prämiert">{% endif %}
-  {% if poem.published %}<img class="index-icon" src="/assets/published-icon.svg" alt="veröffentlicht" title="veröffentlicht">{% endif %}
-</li>
-  {% endfor %}
-</ul>
+  {% include item-list.html title="Kurzgeschichten" items=site.stories %} {%
+  include item-list.html title="Gedichte" items=site.poems %}
 </div>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "{{ site.title }}",
+    "description": "{{ site.description }}",
+    {% assign all_items = site.stories | concat: site.poems %}
+    "numberOfItems": {{ all_items | size }},
+    "itemListElement": [
+      {% assign all_items_sorted = all_items | sort: 'title' %}
+      {% for item in all_items_sorted %}
+      {
+        "@type": "{% if item.collection == 'poems' %}CreativeWork{% else %}ShortStory{% endif %}",
+        "position": {{ forloop.index }},
+        "url": "{{ site.url }}{{ item.url }}",
+        "name": "{{ item.title | escape }}",
+        "description": "{% if item.description %}{{ item.description | escape }}{% else %}{{ item.title | escape }}{% endif %}",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": "{{ site.url }}{{ item.url }}"
+        }
+      }{% if forloop.last == false %},{% endif %}
+      {% endfor %}
+    ]
+  }
+</script>

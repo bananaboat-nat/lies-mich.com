@@ -3,6 +3,7 @@ layout: text
 title: "Verwirrendes Stadtgedicht #1"
 order: 21
 type: poetry
+date: 2024-01-01
 ---
 
 Ich kratze Fassaden ab

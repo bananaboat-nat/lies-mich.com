@@ -3,6 +3,7 @@ layout: text
 title: "Du warst schon lange nicht mehr da"
 order: 9
 type: poetry
+date: 2024-01-01
 ---
 
 Es riecht wie zuhause

@@ -3,6 +3,7 @@ layout: text
 title: "Meine Worte"
 order: 11
 type: poetry
+date: 2024-01-01
 ---
 
 Ich muss alle Worte lernen

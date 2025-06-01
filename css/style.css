@@ -1,8 +1,10 @@
 :root {
   --background-color: #defdda; /* Define the background color variable */
+  --secondary-text-grey: #505050; /* Define secondary text grey */
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
@@ -82,7 +84,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-grow:1;
+  flex-grow: 1;
 }
 
 .story-content {
@@ -96,7 +98,7 @@ li {
   text-align: center;
   flex-shrink: 0;
   padding: 10px;
-  font-size:70%;
+  font-size: 70%;
 }
 
 .wrapper {
@@ -105,13 +107,23 @@ li {
   min-height: 100vh; /* Make sure the wrapper takes up at least 100% of the viewport height */
 }
 
-.small-text {
+.info-text {
   font-size: 80%;
   margin-top: 40px;
-  padding-right:10%;
+  padding-right: 10%;
   padding-left: 10%;
-  opacity: 0.8;
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.secondary-text {
+  color: var(--secondary-text-grey);
 }

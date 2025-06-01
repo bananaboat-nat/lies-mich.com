@@ -8,21 +8,111 @@ layout: default
      src="/assets/logo-192x192.png"
      alt="lies mich logo"
  />
- <span style="text-decoration: underline;">< zu den Kurzgeschichten und Gedichten</span>
+ <span class="secondary-text" style="text-decoration: underline;">< zu den Kurzgeschichten und Gedichten</span>
  </a>
  <h1>{{ page.title }}</h1>
  <div class="story-content" {% if page.type == "poetry" %}style="line-height:2;"{% endif %}>
    {{ content }}
  </div>
 
- {% if page.small_text %}
-   <div class="small-text">
+ {% if page.malika or page.published %}
+   <div class="info-text secondary-text" id="info-text">
      <div style="flex:none; width: 10%; max-width: 36px; max-height: 36px;">
        {% if page.malika %}<img src="/assets/award-icon.svg" alt="prämiert" height="100%">{% endif %}
        {% if page.published %}<img src="/assets/published-icon.svg" alt="veröffentlicht" height="100%">{% endif %}  
      </div>
      <div>
-       {{ page.small_text }}
+      {% if page.malika %}
+       {{ page.malika.info_text }}
+      {% endif %}
+      {% if page.published %}
+        {{ page.published.info_text }}. <a href="{{ page.published.url }}" target="_blank" rel="noopener noreferrer">{{ page.published.link_label }}</a>
+      {% endif %}
      </div>
    </div>
  {% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.type == 'poetry' %}CreativeWork{% else %}ShortStory{% endif %}",
+  "headline": "{{ page.title | escape }}",
+  "description": "{% if page.description %}{{ page.description | escape }}{% else %}{{ page.title | escape }}{% endif %}",
+  "inLanguage": "de",
+  "author": {
+    "@type": "Person",
+    "name": "Natalie Bock"
+  },
+    "editor": {
+    "@type": "Person",
+    "name": "Natalie Bock"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "lies-mich.com",
+    "url": "https://lies-mich.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/logo-512x512.png"
+    }
+  },
+  "license": "https://lies-mich.com/lizenz",
+  "isAccessibleForFree": true,
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "url": "{{ site.url }}{{ page.url }}",
+  {% if page.malika %}
+  "award": "{{ page.malika.name }}",
+  {% endif %}
+  {% if page.published %}
+    "isPartOf": {
+      "@type": "Book",
+      "name": "{{ page.published.name | escape }}",
+      {% if page.published.author %}
+      "author": {
+        "@type": "Person",
+        "name": "{{ page.published.author | escape }}"
+      },
+      {% endif %}
+      {% if page.published.editor %}
+      "editor": {
+        "@type": "Person",
+        "name": "{{ page.published.editor | escape }}"
+      },
+      {% endif %}
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ page.published.publisher | escape }}"
+      },
+      "isbn": "{{ page.published.isbn | escape }}",
+      "datePublished": "{{ page.published.date | date_to_xmlschema }}",
+      "url": "{{ page.published.url | escape }}"
+    },
+  {% endif %}
+  {% if page.date %}
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  {% endif %}
+  "genre": "{% if page.type == 'poetry' %}Poetry{% else %}Short Story{% endif %}",
+  {% if content %}
+    {% assign word_count = content | number_of_words %}
+    "wordCount": "{{ content | number_of_words }}",
+
+    {% assign minutes = word_count | divided_by: 150 %}
+    {% assign remainder = word_count | modulo: 150 %}
+    {% if remainder > 0 %}
+      {% assign minutes = minutes | plus: 1 %}
+    {% endif %}
+    "timeRequired": "PT{{ minutes | default: 1 }}M"
+
+  {% endif %}
+  "keywords": "{{ page.title | escape }}, Lyrik, Kurzgeschichten, Wien, zeitgenössische Literatur, Natalie Bock",
+  "identifier": "{{ page.slug | default: page.url | slugify }}",
+  "about": "{% if page.description %}{{ page.description | escape }}{% else %}{{ page.title | escape }}{% endif %}",
+  "potentialAction": {
+    "@type": "ReadAction",
+    "target": "{{ site.url }}{{ page.url }}"
+}
+}
+</script>

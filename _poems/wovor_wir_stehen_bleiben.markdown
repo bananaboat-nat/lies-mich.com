@@ -3,6 +3,7 @@ layout: text
 title: "Wovor wir stehen bleiben"
 order: 30
 type: poetry
+date: 2024-11-01
 ---
 
 Ich habe die Schönheit erblickt

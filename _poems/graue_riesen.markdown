@@ -3,6 +3,7 @@ layout: text
 title: "Graue Riesen"
 order: 5
 type: poetry
+date: 2025-01-01
 ---
 
 Ich klettere eine Böschung hinauf. 
