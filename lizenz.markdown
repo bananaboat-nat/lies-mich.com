@@ -8,7 +8,7 @@ permalink: /lizenz
 
 <p>Alle Inhalte dieser Website stehen unter der  
 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de" target="_blank" rel="noopener noreferrer">
-Creative Commons <span style="font-style: italic;">Namensnennung – Nicht kommerziell – Keine Bearbeitungen 4.0 International</span> Lizenz</a>.</p>
+Creative Commons Lizenz <span style="font-style: italic;">Namensnennung – Nicht kommerziell – Keine Bearbeitungen 4.0 International</span></a>.</p>
 
 <div style="text-align: center; margin-top: 1em;">
   <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de" target="_blank" rel="noopener noreferrer">
