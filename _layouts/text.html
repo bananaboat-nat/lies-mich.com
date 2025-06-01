@@ -98,14 +98,12 @@ layout: default
   {% if content %}
     {% assign word_count = content | number_of_words %}
     "wordCount": "{{ content | number_of_words }}",
-
     {% assign minutes = word_count | divided_by: 150 %}
     {% assign remainder = word_count | modulo: 150 %}
     {% if remainder > 0 %}
       {% assign minutes = minutes | plus: 1 %}
     {% endif %}
-    "timeRequired": "PT{{ minutes | default: 1 }}M"
-
+    "timeRequired": "PT{{ minutes | default: 1 }}M",
   {% endif %}
   "keywords": "{{ page.title | escape }}, Lyrik, Kurzgeschichten, Wien, zeitgenössische Literatur, Natalie Bock",
   "identifier": "{{ page.slug | default: page.url | slugify }}",
