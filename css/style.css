@@ -3,12 +3,6 @@
   --secondary-text-grey: #505050; /* Define secondary text grey */
 }
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -32,7 +26,7 @@ a:hover {
 }
 
 h1 {
-  margin: 20px 0;
+  margin: 0px;
   flex-shrink: 0;
   text-align: center;
 }
@@ -40,7 +34,7 @@ h1 {
 h2 {
   margin-top: 10px;
   margin-bottom: 0px;
-  font-size: 200%;
+  font-size: 1.5em;
 }
 
 ul {
@@ -56,10 +50,12 @@ ul {
 li {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 200%;
-  display: flex;
-  align-items: center;
+  font-size: 1.5em;
   gap: 0.25em;
+}
+
+li img {
+  vertical-align: middle;
 }
 
 .index-icon {
@@ -68,30 +64,32 @@ li {
 
 @media only screen and (max-width: 600px) {
   li {
-    font-size: 100%;
+    font-size: 1em;
   }
   h2 {
-    font-size: 100%;
+    font-size: 1.2em;
   }
   .index-icon {
     height: 18px;
+  }
+  .site-intro {
+    font-size: 16px;
   }
 }
 
 .content {
   width: 100%;
-  padding: 20px;
+  max-width: 900px;
+  padding: 10px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-grow: 1;
-  padding-bottom: 10px;
 }
 
 .story-content {
   overflow-y: auto;
   text-align: justify;
-  max-width: 800px;
 }
 
 .story-content.poetry {
@@ -102,7 +100,7 @@ li {
   width: 100%;
   text-align: center;
   flex-shrink: 0;
-  padding: 10px;
+  padding: 1em;
   font-size: 70%;
 }
 
@@ -110,6 +108,7 @@ li {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Make sure the wrapper takes up at least 100% of the viewport height */
+  align-items: center;
 }
 
 .info-text {
@@ -120,14 +119,13 @@ li {
   display: flex;
   align-items: center;
   gap: 20px;
-  max-width: 800px;
 }
 
 .icon-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  /* text-decoration: none; */
+  vertical-align: middle;
 }
 
 .secondary-text {
@@ -154,20 +152,40 @@ li {
   text-decoration: none;
 }
 
-.prev-back-button .arrow{
+.prev-back-button .arrow {
   font-size: 1.5em;
 }
 
-.prev-back-button .title{
+.prev-back-button .title {
   text-decoration: underline;
 }
 
 .open-in-new-tab-icon {
   scale: 0.8;
   opacity: 0.8;
+  margin-left: 5px;
 }
 
 .inverted-colors {
   background-color: var(--secondary-text-grey);
   color: var(--background-color);
+}
+
+.header {
+  width: 100%;
+  flex-shrink: 0;
+  padding: 1em 5%;
+}
+
+.header-anchor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-intro {
+  margin-top: 1em;
 }

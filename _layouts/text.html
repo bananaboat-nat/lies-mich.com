@@ -2,16 +2,6 @@
 layout: default
 ---
 
-<a href="/" style="display: flex; align-items: center; flex-direction: column">
-  <img
-    style="display: block; height: 60px; width: 60px"
-    src="/assets/logo-192x192.png"
-    alt="lies mich logo"
-  />
-  <a href="/" class="secondary-text" style="text-decoration: underline"
-    >< zu den Kurzgeschichten und Gedichten</a
-  >
-</a>
 <h1>{{ page.title }}</h1>
 <div class="story-content {{ page.type }}">
   {{ content }}
@@ -43,7 +33,9 @@ layout: default
 {% endif %}
 
 <!-- previous/next text buttons -->
-{% assign all_items = site.stories | concat: site.poems | sort: 'title' %} {%
+{% assign sorted_stories = site.stories | sort: 'title' %}
+{% assign sorted_poems = site.poems | sort: 'title' %}
+{% assign all_items = sorted_stories | concat: sorted_poems %} {%
 assign current_url = page.url %} {% assign current_index = -1 %} {% for item in
 all_items %} {% if item.url == current_url %} {% assign current_index =
 forloop.index0 %} {% endif %} {% endfor %} {% assign previous_index =
