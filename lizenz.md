@@ -4,14 +4,6 @@ title: Lizenz
 permalink: /lizenz
 ---
 
-<a href="/" style="display: flex; align-items: center; flex-direction: column">
-  <img
-    style="display: block; height: 60px; width: 60px"
-    src="/assets/logo-192x192.png"
-    alt="lies mich logo"
-  />
-  <span class="secondary-text" style="text-decoration: underline">< zu den Kurzgeschichten und Gedichten</span>
-</a>
 <h1>{{ page.title }}</h1>
 
 <div class="story-content">

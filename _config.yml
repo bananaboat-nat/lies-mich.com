@@ -23,6 +23,7 @@ title: Originelle Kurzgeschichten und Gedichte | Lies mich :)
 short_title: Lies mich :)
 email: "n.1995@gmx.at"
 description: Originelle, zeitgenössische Kurzgeschichten und Gedichte einer jungen Autorin aus Wien, geprägt von Auslandserfahrung und Rückkehr.
+long_description: # Long description for homepage
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://lies-mich.com" # the base hostname & protocol for your site, e.g. http://example.com
 
