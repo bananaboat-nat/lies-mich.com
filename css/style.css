@@ -93,6 +93,10 @@ li {
   max-width: 800px;
 }
 
+.story-content.poetry {
+  line-height: 2;
+}
+
 .footer {
   width: 100%;
   text-align: center;
@@ -126,4 +130,13 @@ li {
 
 .secondary-text {
   color: var(--secondary-text-grey);
+}
+
+.author {
+  text-align: right;
+}
+
+.text-navigation {
+  width: 100%;
+  max-width: 850px;
 }
