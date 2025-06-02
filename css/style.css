@@ -125,7 +125,7 @@ li {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .secondary-text {
@@ -139,4 +139,9 @@ li {
 .text-navigation {
   width: 100%;
   max-width: 850px;
+}
+
+.open-in-new-tab-icon {
+  scale: 0.8;
+  opacity: 0.8;
 }

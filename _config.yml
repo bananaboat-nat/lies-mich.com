@@ -35,6 +35,8 @@ collections:
   poems:
     output: true
     permalink: /gedichte/:name  # This sets the URL structure    
+  childrens_books:
+    output: false  # don't generate a page for these
 
 kramdown:
   input: GFM
