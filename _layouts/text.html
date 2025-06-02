@@ -8,8 +8,8 @@ layout: default
     src="/assets/logo-192x192.png"
     alt="lies mich logo"
   />
-  <span class="secondary-text" style="text-decoration: underline"
-    >< zu den Kurzgeschichten und Gedichten</span
+  <a href="/" class="secondary-text" style="text-decoration: underline"
+    >< zu den Kurzgeschichten und Gedichten</a
   >
 </a>
 <h1>{{ page.title }}</h1>
@@ -51,19 +51,21 @@ current_index | minus: 1 %} {% assign next_index = current_index | plus: 1 %} {%
 assign previous_item = all_items[previous_index] %} {% assign next_item =
 all_items[next_index] %}
 
-<div
-  class="text-navigation secondary-text"
-  style="margin-top: 2em; display: flex; justify-content: space-between"
->
+<div class="text-navigation secondary-text">
   {% if previous_item %}
-  <a href="{{ previous_item.url }}" class="button prev"
-    >&laquo; {{ previous_item.title }}</a
+  <a href="{{ previous_item.url }}" class="prev-back-button"
+    ><span class="arrow">←</span
+    ><span class="title">{{ previous_item.title }}</span></a
   >
   {% else %}
   <span></span>
   {% endif %} {% if next_item %}
-  <a href="{{ next_item.url }}" class="button next"
-    >{{ next_item.title }} &raquo;</a
+  <a
+    href="{{ next_item.url }}"
+    class="prev-back-button"
+    style="margin-left: auto"
+    ><span class="title">{{ next_item.title }}</span
+    ><span class="arrow">→</span></a
   >
   {% endif %}
 </div>
