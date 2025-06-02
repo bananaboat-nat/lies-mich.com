@@ -12,31 +12,66 @@ layout: default
 <div>
   {% include item-list.html title="Kurzgeschichten" items=site.stories %} {%
   include item-list.html title="Gedichte" items=site.poems %}
+  <h2>Kinderbücher</h2>
+  <ul>
+    {% assign books = site.childrens_books | sort: 'lang' %} {% for book in
+    books %}
+    <li>
+      <a
+        class="icon-link"
+        href="{{ book.shop_url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {{ book.title }}
+        <img
+          class="index-icon open-in-new-tab-icon"
+          src="/assets/open-in-new-tab-icon.svg"
+          alt="opens in new tab"
+        />
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "{{ site.title }}",
-    "description": "{{ site.description }}",
-    {% assign all_items = site.stories | concat: site.poems %}
-    "numberOfItems": {{ all_items | size }},
-    "itemListElement": [
-      {% assign all_items_sorted = all_items | sort: 'title' %}
-      {% for item in all_items_sorted %}
       {
-        "@type": "{% if item.collection == 'poems' %}CreativeWork{% else %}ShortStory{% endif %}",
-        "position": {{ forloop.index }},
-        "url": "{{ site.url }}{{ item.url }}",
-        "name": "{{ item.title | escape }}",
-        "description": "{% if item.description %}{{ item.description | escape }}{% else %}{{ item.title | escape }}{% endif %}",
-        "potentialAction": {
-          "@type": "ReadAction",
-          "target": "{{ site.url }}{{ item.url }}"
-        }
-      }{% if forloop.last == false %},{% endif %}
-      {% endfor %}
-    ]
-  }
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        {% assign all_items = site.stories | concat: site.poems %}
+        "numberOfItems": {{ all_items | size }},
+        "itemListElement": [
+          {% assign all_items_sorted = all_items | sort: 'title' %}
+          {% for item in all_items_sorted %}
+          {
+            "@type": "{% if item.collection == 'poems' %}CreativeWork{% else %}ShortStory{% endif %}",
+            "position": {{ forloop.index }},
+            "url": "{{ site.url }}{{ item.url }}",
+            "name": "{{ item.title | escape }}",
+            "description": "{% if item.description %}{{ item.description | escape }}{% else %}{{ item.title | escape }}{% endif %}",
+            "potentialAction": {
+              "@type": "ReadAction",
+              "target": "{{ site.url }}{{ item.url }}"
+            }
+          }{% if forloop.last == false %},{% endif %}
+          {% endfor %}
+        {% for item in site.childrens_books %}
+          {
+            "@type": ["Book", "Product"],
+            "position": {{ all_items_sorted | size | plus: forloop.index }},
+            "url": "{{ item.shop_url }}",
+            "name": "{{ item.title | escape }}",
+            "description: "{{ item.description }}",
+            "potentialAction": {
+              "@type": "BuyAction",
+              "target": "{{ item.shop_url }}"
+            }
+          }
+          {% if forloop.last == false %},{% endif %}
+        {% endfor %}
+        ]
+      }
 </script>
