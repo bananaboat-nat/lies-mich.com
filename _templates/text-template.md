@@ -9,7 +9,7 @@ date: # format: YYYY-MM-DD
 
 # Optional fields
 description: # falls back to title if empty
-author: # falls back to "Natalie Bock" if empty
+author: # falls back to "Amelia Ginster" if empty
 
 # If published – remove block if not published
 published:
