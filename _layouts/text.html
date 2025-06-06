@@ -5,7 +5,7 @@ layout: default
 <h1>{{ page.title }}</h1>
 <div class="story-content {{ page.type }}">
   {{ content }}
-  <div class="author">{{ page.author | default: "Amelia Ginster" }}</div>
+  <div class="author">{{ page.author | default: site.author }}</div>
 </div>
 
 {% if page.malika or page.published %}
@@ -71,11 +71,11 @@ all_items[next_index] %}
     "inLanguage": "de",
     "author": {
       "@type": "Person",
-      "name": "Amelia Ginster"
+      "name": "{{ site.author }}"
     },
       "editor": {
       "@type": "Person",
-      "name": "Amelia Ginster"
+      "name": "{{ site.author }}"
     },
     "publisher": {
       "@type": "Organization",

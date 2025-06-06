@@ -26,7 +26,7 @@ description: Originelle, zeitgenössische Kurzgeschichten und Gedichte einer jun
 long_description: # Long description for homepage
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://lies-mich.com" # the base hostname & protocol for your site, e.g. http://example.com
-
+author: Amelia Ginster
 
 # Build settings
 collections:
