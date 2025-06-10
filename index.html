@@ -55,7 +55,7 @@ layout: default
           "@type": "ReadAction",
           "target": "{{ site.url }}{{ item.url }}"
         }
-      }{% if forloop.last == false %},{% endif %}
+      },
       {% endfor %}
     {% for item in site.childrens_books %}
       {
