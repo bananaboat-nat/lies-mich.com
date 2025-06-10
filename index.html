@@ -63,7 +63,7 @@ layout: default
         "position": {{ all_items_sorted | size | plus: forloop.index }},
         "url": "{{ item.shop_url }}",
         "name": "{{ item.title | escape }}",
-        "description: "{{ item.description }}",
+        "description": "{{ item.description }}",
         "potentialAction": {
           "@type": "BuyAction",
           "target": "{{ item.shop_url }}"
