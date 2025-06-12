@@ -59,7 +59,7 @@ layout: default
       {% endfor %}
     {% for item in site.childrens_books %}
       {
-        "@type": ["Book", "Product"],
+        "@type": ["Book"],
         "position": {{ all_items_sorted | size | plus: forloop.index }},
         "url": "{{ item.shop_url }}",
         "name": "{{ item.title | escape }}",
