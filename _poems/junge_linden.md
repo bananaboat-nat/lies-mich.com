@@ -1,6 +1,6 @@
 ---
 layout: text
-title: "Junge Linden"
+title: "Wir liegen unter jungen Linden"
 order: 33
 type: poetry
 date: 2025-07-01
