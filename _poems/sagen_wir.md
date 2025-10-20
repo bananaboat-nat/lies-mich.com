@@ -1,5 +1,6 @@
 ---
-layout: Sagen wir das ist nicht passiert"
+layout: text
+title: "Sagen wir das ist nicht passiert"
 order: 34
 type: poetry
 date: 2025-02-03
