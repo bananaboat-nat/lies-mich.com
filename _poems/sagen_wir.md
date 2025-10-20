@@ -20,8 +20,8 @@ published:
 Ich lese es in der Zeitung
 Ich höre es im Radio
 
-„Der Himmel ist dreckig”*
-„Mein Gott, das Licht”**
+„Der Himmel ist dreckig”¹
+„Mein Gott, das Licht”²
 
 Ich denke daran
 Ich träume davon
@@ -33,7 +33,7 @@ Wovon ich lese, höre, träume
 
 Wie laut es sein muss
 
-„Mordor existiert, und ich war dort”***
+„Mordor existiert, und ich war dort”³
 
 Es ist überall, ich möchte mir die Ohren zuhalten
 Die Augen schließen
@@ -99,6 +99,6 @@ Sagen wir, das ist nicht passiert
 
 
 
-* Überschrift eines Artikels von Die Zeit, Olivia Kortas, 03.02.25: https://www.zeit.de/2025/05/drohnenpiloten-ukraine-krieg-russland-sprengstoff
-** Teil einer Überschrift eines Artikels von Der Standard, Red, 12.12.24: https://www.derstandard.at/story/3000000249001/mein-gott-das-licht-cnn-bericht-ueber-syrischen-gefangenen-sorgt-fuer-aufsehen
-*** Teil einer Überschrift eines Artikels von Der Standard, Stefan Schocher, 14.01.25: https://www.derstandard.at/story/3000000252619/freigelassener-ukrainischer-soldat-mordor-existiert-und-ich-war-dort
+¹Überschrift eines Artikels von Die Zeit, Olivia Kortas, 03.02.25: https://www.zeit.de/2025/05/drohnenpiloten-ukraine-krieg-russland-sprengstoff
+²Teil einer Überschrift eines Artikels von Der Standard, Red, 12.12.24: https://www.derstandard.at/story/3000000249001/mein-gott-das-licht-cnn-bericht-ueber-syrischen-gefangenen-sorgt-fuer-aufsehen
+³Teil einer Überschrift eines Artikels von Der Standard, Stefan Schocher, 14.01.25: https://www.derstandard.at/story/3000000252619/freigelassener-ukrainischer-soldat-mordor-existiert-und-ich-war-dort
