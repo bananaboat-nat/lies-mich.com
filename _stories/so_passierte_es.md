@@ -1,0 +1,29 @@
+---
+layout: text
+title: "So passierte es"
+order: 6
+type: story
+date: 2025-06-02
+---
+
+Es passierte ganz langsam, ganz still, aber unaufhörlich. Es kroch voran, machte manchmal einen Sprung, dann eine Pause. Doch es setzte sich immer wieder in Bewegung. Sie hatten es schon lange gewusst. Seit Jahren wussten sie es, seit Jahrzehnten. Doch sie hatten es alle ganz hinten verstaut, in der Schublade, in die man die Dinge legt, von denen man nicht weiß, wohin man sie geben soll. So lag das Wissen darum, was passieren würde neben Gummibändern, kleinen Plastiksäckchen, Zeitungsausschnitten, Büroklammern und alten Glückwunschkarten. Da verwahrten sie das Wissen darum, was geschehen würde. 
+
+Manchmal, wenn sie gerade auf der Suche nach etwas waren, das sie sonst nirgends finden konnten, dann öffneten sie die Schublade. Die meisten erschraken und schlossen sie sofort wieder. Andere betrachteten den Inhalt, starrten eine Weile darauf, erinnerten sich und schoben sie dann doch wieder zu, die Schublade. Was sollten sie auch tun damit? Das Wissen darum, was passieren würde, war immer da, doch niemand holte es heraus. Niemand verlor auch nur ein Wort darüber.
+
+Elisa Reis stand an der Fensterfront ihres Büros in einem Turm am Hauptbahnhof. Von dort aus schaute sie hinunter auf das Treiben am Gürtel. Sie hatte vor Jahren ihre eigene Firma gegründet. Zuckerersatz - das ging auf wie eine Bombe. Alle wollten es süß, niemand wollte Zucker. „Her mit der Saccose!” schrieen sie. Also gab sie ihnen die Saccose und wurde dabei so reich wie es nicht viele andere waren. 
+
+Sie stand an der Fensterfront und blickte hinaus. Die Klimaanlage summte. Trotzdem hatten sich unter ihren Achselhöhlen kleine dunkle Flecken auf ihrer seidenen Bluse gebildet. Sie fächerte sich mit einer Werbebroschüre Luft zu. „The new sweet!“, stand da in fetter moderner Schrift. Darunter lachende Gesichter. Unten am Gürtel sah sie keine lachenden Gesichter. Die Menschen hetzten mit roten Köpfen von Schatten zu Schatten. Der Geruch von ewigem Schweiß hing in der Luft, kroch bis hinauf an Elisa Reis Fensterfront. Er war in allen Nasen, zu jeder Zeit.
+
+Elisa Reis stand am Fenster und blickte hinunter auf den Gürtel. Ihr Rücken war feucht. Unter der brausenden Klimaanlage hatte sich eine Lacke von Kühlflüssigkeit, in ihren hochhackigen Schuhen eine kleine Pfütze von Schweiß gebildet. Sie stütze ihre linke Hand an der warmen Glasscheibe ab. Die Menschen unten am Gürtel hetzten jetzt nicht mehr. Sie schlurften zwischen den Schatten umher. An der Ecke brach eine alte Frau zusammen. Das am dampfenden Asphalt liegende Bündel wurde kaum beachtet. Die Alten kollabierten regelmäßig, da war nichts zu machen.
+
+Elisa Reis stand an der Fensterfront. Sie hielt sich an ihrem Tisch fest. Ihr war schwindelig. Ein Schweißtropfen rann ihr ins Auge. Der Gürtel unter ihr verschwamm. Ein Auto war wieder im schmelzenden Asphalt stecken geblieben. Es roch nach heißem Teer. Ein regelmäßiges Tropfgeräusch erfüllte den großen Raum. Unter der Klimaanlage stand ein halbvoller Eimer. Die grellen Farben der modernen Kunstwerke an den Wänden rannen träge die Wände hinunter. Die übergroßen Zimmerpflanzen waren allesamt vertrocknet.
+
+Elisa Reis stand am Fenster und blickte hinunter auf den Gürtel. Sie stützte sich mit beiden Händen auf ihrem Tisch ab. Ihr Kopf fühlte sich fiebrig an. Ihr Mund war trocken. Sie war aus ihren  hochhackigen Schuhen gestiegen und fühlte den Boden unter ihren Füßen glühen. Unten am Gürtel war gerade ein Auto spontan in Flammen aufgegangen. Es waren schon lange keine Menschen mehr unterwegs auf der Straße. Die Straße war ein Fluss aus heißem Teer, in dem Autos und vereinzelte Schuhe schleppend umhertrieben. Die Klimaanlage gab ein röchelndes Geräusch von sich. Die Luft in Elisa Reis Büro war so trocken wie Wüstensand.
+
+Elisa Reis lehnte am glühenden Fenster. Ihr Atem ging schnell und flach. Das Summen der Hitze schwirrte in der Luft, schwirrte in ihrem Kopf. Ansonsten war es still, bis auf das Knistern der kleinen Feuer im Raum. Die Zimmerpflanze neben ihr war soeben in Flammen aufgegangen, die Leinwände an den Wänden bereits verglüht. Das Papier der Werbebroschüren kräuselte sich in der Glut. Die lachenden Gesichter verzerrt zu grotesken Masken. Der Gürtel verschwamm vor Elisa Reis Augen. Sie sah die brennheiße Betonsuppe durch einen dunkelroten Filter. Das Rot wurde stärker, dunkler. Dann wurde es schwarz um Elisa Reis.
+
+So war es passiert, ganz langsam, ganz still, aber unaufhörlich. Erst hatten sie geschwitzt. Dann waren sie kollabiert. Dann hatten sie geglüht, waren verdampft, verbrannt. Elisa Reis hatte es alles von ihrem Fenster aus gesehen. Das Wissen darum, was passieren würde, was passiert war, hatten sie alle in ihrer Schublade gelassen. Was brachte es auch noch, es jetzt herauszuholen?
+
+Das Fenster, an dem Elisa Reis gestanden hatte, gab es nun nicht mehr. Es war mit der restlichen Struktur des stählernen Turmes verschmolzen. Die blitzblanke Fensterfront war in den blubbernden Beton gesunken, wie ein Stück Obst, das in Schokofondue getaucht wird. Alles war zusammengesackt unter der brüllenden Hitze. Materialen hatten sich gemischt, alles war eins geworden. Die Erdoberfläche hatte sich in einen Brennofen verwandelt. Alles wurde verschlungen, verschluckt, verglüht.
+
+Selbst das Wissen aus der Schublade war mit ihnen verglüht. Erst waren die Gummibänder und Plastiksäckchen zerschmolzen, hatten sich in einer stinkenden Schicht um das Wissen gelegt. Da wollte es dann sowieso keiner mehr herausnehmen, das Wissen darum, was geschehen würde, was geschehen war. Dann waren die Zeitungsausschnitte und Glückwunschkarten verglüht, zuletzt dann auch noch die Büroklammern geschmolzen. Alles war zu einer hässlich stinkenden Mischung geworden, die am Boden der Schublade kleben blieb.
