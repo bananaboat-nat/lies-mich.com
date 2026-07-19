@@ -7,9 +7,7 @@ date: 2026-05-06
 
 malika:
   name: Putlitzer Preis 2026
-  info_text: Dieser Text wurde mit dem 3. Platz des Putlitzer Preises ausgezeichnet.
-  url: https://putlitzerpreis.de/die-sieger-stehen-fest-3/
-  link_label: Putlitzer Preis 2026
+  info_text: Dieser Text wurde mit dem 3. Platz des Putlitzer Preises 2026 der 42er Autoren ausgezeichnet.
 ---
 
 Er stand seit einer Stunde am Gehsteig in der Schlange vor der Eingangstür der Notschlafstelle. Es war kalt an diesem Abend. Er trat von einem Fuß auf den anderen. Eine Frau ging vorbei, den Schal hoch ins Gesicht gezogen. Sie wechselte schnell auf die andere Straßenseite, als sie die Menschenschlange erblickte. Dann ging drinnen endlich Licht an. Die dunkle Schlange aus Menschen setzte sich in Bewegung – ruckartig, zwischen Hast, wenn die Tür aufging, und Stillstand, wenn sie wieder ins Schloss fiel. Große Plastiksäcke wurden rhythmisch aufgehoben und wieder auf den Boden abgesetzt.
