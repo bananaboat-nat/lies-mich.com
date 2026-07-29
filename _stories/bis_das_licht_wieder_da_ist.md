@@ -8,6 +8,13 @@ date: 2026-05-06
 malika:
   name: Putlitzer Preis 2026
   info_text: Dieser Text wurde mit dem 3. Platz des Putlitzer Preises 2026 der 42er Autoren ausgezeichnet.
+
+  published:
+    name: "Putlitzer Preis 2026"
+    date: 2026-07-29
+    info_text: 'Dieser Text wurde auf der Website des Putlitzer Literaturpreises der 42er Autoren veröffentlicht.
+    url: https://putlitzerpreis.de/natalie-bock-bis-das-licht-wieder-da-ist/
+    link_label: Putlitzer Preis
 ---
 
 Er stand seit einer Stunde am Gehsteig in der Schlange vor der Eingangstür der Notschlafstelle. Es war kalt an diesem Abend. Er trat von einem Fuß auf den anderen. Eine Frau ging vorbei, den Schal hoch ins Gesicht gezogen. Sie wechselte schnell auf die andere Straßenseite, als sie die Menschenschlange erblickte. Dann ging drinnen endlich Licht an. Die dunkle Schlange aus Menschen setzte sich in Bewegung – ruckartig, zwischen Hast, wenn die Tür aufging, und Stillstand, wenn sie wieder ins Schloss fiel. Große Plastiksäcke wurden rhythmisch aufgehoben und wieder auf den Boden abgesetzt.
