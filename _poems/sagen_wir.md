@@ -9,7 +9,6 @@ published:
     name: "ungebunden"
     publisher: Stadtbibliothek St. Pölten mit Unterstützung der Kulturabteilung des Magistrats
     editor: Corinna Bergmann
-    isbn: xxx
     date: 2025-10-10
     info_text: 'Dieses Gedicht wurde veröffentlicht in der dritten Anthologie "ungebunden" der Stadt St.Pölten, präsentiert am 10.10.2025'
     url: https://www.st-poelten.at/news/19650-anthologie-ungebunden

@@ -116,7 +116,9 @@ all_items[next_index] %}
           "@type": "Organization",
           "name": "{{ page.published.publisher | escape }}"
         },
+        {% if page.published.isbn %}
         "isbn": "{{ page.published.isbn | escape }}",
+        {% endif %}
         "datePublished": "{{ page.published.date | date_to_xmlschema }}",
         "url": "{{ page.published.url | escape }}"
       },

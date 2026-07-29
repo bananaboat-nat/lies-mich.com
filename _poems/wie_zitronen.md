@@ -9,7 +9,6 @@ published:
     name: "ZINA - Issue 1"
     publisher: Independently published
     editor: Zina Litera
-    isbn: xxx
     date: 2025-10-01
     info_text: 'Dieses Gedicht wurde veröffentlicht in der ersten Auflage des Magazins "ZINA", gedruckt am 1. Oktober 2025'
 ---

@@ -16,13 +16,13 @@ published:
   # Required when 'published' is present
   name: # title of publication
   publisher: # book publisher
-  isbn: # 13-digit ISBN, digits only (no dashes)
   date: # format: YYYY-MM-DD
   info_text: # shown after the text, next to the 'published' icon
   url: # where to find the book
   link_label: # label for the link (e.g. "Verfügbar auf Amazon")
 
   # Optional fields
+  isbn: # 13-digit ISBN, digits only (no dashes)
   editor: # book editor
   author: # book author
 
