@@ -8,11 +8,6 @@ date: 2026-05-06
 malika:
   name: Putlitzer Preis 2026
   info_text: Dieser Text wurde mit dem 3. Platz des Putlitzer Preises 2026 der 42er Autoren ausgezeichnet.
-
-published:
-  name: "Putlitzer Preis 2026"
-  date: 2026-07-29
-  info_text: "Dieser Text wurde auf der Website des Putlitzer Literaturpreises der 42er Autoren veröffentlicht."
   url: https://putlitzerpreis.de/natalie-bock-bis-das-licht-wieder-da-ist/
   link_label: Putlitzer Preis
 ---

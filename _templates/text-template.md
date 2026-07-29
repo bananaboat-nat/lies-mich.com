@@ -31,6 +31,9 @@ malika:
   # Required when 'malika' is present
   name: # name of the award
   info_text: # shown after the text, next to the 'malika' icon
+  # Optional fields
+  url: # where to find the award/competition
+  link_label: # label for the link
 
 # Deprecated fields (safe to ignore)
 order: # obsolete – texts are sorted alphabetically

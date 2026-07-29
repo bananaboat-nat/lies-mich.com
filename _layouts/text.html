@@ -10,25 +10,32 @@ layout: default
 
 {% if page.malika or page.published %}
 <div class="info-text secondary-text" id="info-text">
-  <div style="flex: none; width: 10%; max-width: 36px; max-height: 36px">
-    {% if page.malika %}<img
-      src="/assets/award-icon.svg"
-      alt="prämiert"
-      height="100%"
-    />{% endif %} {% if page.published %}<img
-      src="/assets/published-icon.svg"
-      alt="veröffentlicht"
-      height="100%"
-    />{% endif %}
+  {% if page.malika %}
+  <div class="info-block">
+    <div class="info-icon">
+      <img src="/assets/award-icon.svg" alt="prämiert" height="100%" />
+    </div>
+    <div>
+      {{ page.malika.info_text }} {% if page.malika.url %}
+      <a href="{{ page.malika.url }}" target="_blank" rel="noopener noreferrer"
+        >{{ page.malika.link_label }}</a
+      >
+      {% endif %}
+    </div>
   </div>
-  <div>
-    {% if page.malika %} {{ page.malika.info_text }} {% endif %} {% if
-    page.published %} {{ page.published.info_text }}.
-    <a href="{{ page.published.url }}" target="_blank" rel="noopener noreferrer"
-      >{{ page.published.link_label }}</a
-    >
-    {% endif %}
+  {% endif %} {% if page.published %}
+  <div class="info-block">
+    <div class="info-icon">
+      <img src="/assets/published-icon.svg" alt="veröffentlicht" height="100%" />
+    </div>
+    <div>
+      {{ page.published.info_text }}
+      <a href="{{ page.published.url }}" target="_blank" rel="noopener noreferrer"
+        >{{ page.published.link_label }}</a
+      >
+    </div>
   </div>
+  {% endif %}
 </div>
 {% endif %}
 
